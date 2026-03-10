@@ -31,6 +31,7 @@ Low-cost, simple setup compared to complex existing systems.
 🔄 Non-stop 24/7 monitoring
 
 # How It Works ⚙️
+
 ESP32 reads data from DHT22 sensor, compares with thresholds, triggers local alerts if unsafe, and sends notifications via Blynk cloud. The system runs in a loop: collect data, process, alert if needed, and repeat.
 ​
 📡 Sensor data → ESP32 processing
@@ -39,7 +40,8 @@ ESP32 reads data from DHT22 sensor, compares with thresholds, triggers local ale
 
 🔄 Loop repeats continuously
 
-Components 🛠️
+# Components 🛠️
+
 ESP32: IoT microcontroller with Wi-Fi for cloud connectivity.
 
 ​DHT22: Accurate temperature and humidity sensor.
