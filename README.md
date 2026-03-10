@@ -23,6 +23,7 @@ Automatic alerts via buzzer, LED, and Blynk app for unsafe temperature/humidity.
 Solar-powered for eco-friendly, continuous operation.
 ​
 Low-cost, simple setup compared to complex existing systems.
+
 ​
 🚨 Auto alerts on spoilage risk
 
@@ -33,12 +34,16 @@ Low-cost, simple setup compared to complex existing systems.
 # How It Works ⚙️
 
 ESP32 reads data from DHT22 sensor, compares with thresholds, triggers local alerts if unsafe, and sends notifications via Blynk cloud. The system runs in a loop: collect data, process, alert if needed, and repeat.
+
 ​
 📡 Sensor data → ESP32 processing
 
+
 ⚠️ Unsafe? Buzzer + app alert
 
+
 🔄 Loop repeats continuously
+
 
 # Components 🛠️
 
