@@ -14,7 +14,8 @@ If the temperature or humidity exceeds the predefined safe threshold values, the
 
 The system is designed to be low-cost, energy-efficient, and easy to deploy, and it can be powered using solar energy, making it suitable for rural and agricultural environments.
 
-Key Features ✨
+# Key Features ✨
+
 Real-time monitoring of grain storage conditions.
 ​
 Automatic alerts via buzzer, LED, and Blynk app for unsafe temperature/humidity.
@@ -29,7 +30,7 @@ Low-cost, simple setup compared to complex existing systems.
 
 🔄 Non-stop 24/7 monitoring
 
-How It Works ⚙️
+# How It Works ⚙️
 ESP32 reads data from DHT22 sensor, compares with thresholds, triggers local alerts if unsafe, and sends notifications via Blynk cloud. The system runs in a loop: collect data, process, alert if needed, and repeat.
 ​
 📡 Sensor data → ESP32 processing
@@ -39,41 +40,41 @@ ESP32 reads data from DHT22 sensor, compares with thresholds, triggers local ale
 🔄 Loop repeats continuously
 
 Components 🛠️
-# ESP32: IoT microcontroller with Wi-Fi for cloud connectivity.
+ESP32: IoT microcontroller with Wi-Fi for cloud connectivity.
+
+​DHT22: Accurate temperature and humidity sensor.
 ​
-# DHT22: Accurate temperature and humidity sensor.
+Buzzer/LED: Local alerts.
 ​
-# Buzzer/LED: Local alerts.
+Blynk App: Mobile dashboard for remote monitoring.
 ​
-# Blynk App: Mobile dashboard for remote monitoring.
-​
-📶 ESP32 (Wi-Fi IoT brain)
+    📶 ESP32 (Wi-Fi IoT brain)
 
-🌡 DHT22 (temp/humidity sensor)
+   🌡 DHT22 (temp/humidity sensor)
 
-🔔 Buzzer/LED (local alarms)
+   🔔 Buzzer/LED (local alarms)
 
-📲 Blynk (app control)
+   📲 Blynk (app control)
 
-Advantages ✅
+# Advantages ✅
 
-🛡️ Stops spoilage & losses
+   🛡️ Stops spoilage & losses
 
-🌿 Solar energy efficient
+   🌿 Solar energy efficient
 
-📈 Easy to scale up
+   📈 Easy to scale up
 
-Setup Instructions 🚀
+# Setup Instructions 🚀
 
-# Clone this repo: git clone [your-repo-url].
+   Clone this repo: git clone [your-repo-url].
 
-# Install dependencies: Arduino IDE with ESP32 board, Blynk library.
+   Install dependencies: Arduino IDE with ESP32 board, Blynk library.
 
-# Upload code to ESP32 (code in /src folder).
+   Upload code to ESP32 (code in /src folder).
+   
+   Set up Blynk app with auth token.
 
-# Set up Blynk app with auth token.
-
-# Power via solar panel and place sensors in grain storage.
+   Power via solar panel and place sensors in grain storage.
 ​
    🗂️ Clone repo
 
